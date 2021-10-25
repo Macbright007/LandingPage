@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: pink;
+    border-bottom: 2px solid rgb(97, 10, 25);
+}
+.logo{
+    color: white;
+    font-weight: 700;
+}
+
+span{
+    color: rgb(97, 10, 25);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.nav-list{
+    color: rgb(97, 10, 25);
+    font-size: 20px;
+    font-weight: 900;
+}
+.nav-list > a {
+    margin: 30px;
+}
+
+.nav-list > a:hover{
+    cursor: pointer;
+    color: whitesmoke;
+    border-bottom: 2px solid rgb(97, 10, 25);;
+}
+.nav-list > a:first-child {
+    color: white;
+    padding: 10px;
+    background-color: rgb(97, 10, 25);
+    border-radius: 4px;
+}
+.nav-list > a:first-child:hover{
+    color: rgb(97, 10, 25);
+    background-color: white;
+}
+
+/* main css*/
+.main-head{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+
+    padding-top: 60px;
+}
+
+.main-text{
+    margin: 20px;
+}
+.main-text > h1{
+    font-size: 4.7rem;
+    padding-left: 100px;
+    padding-top: 30px;
+    font-weight: 900;
+    color: #59423c;
+}
+
+.btn{
+    background-color: #59423c;
+    padding: 12px 20px; 
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: 900;
+    margin: 30px 100px; 
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #922e15;
+    text-transform: uppercase;
+}
+img{
+    width: 45%;
+    height: 50vh;
+    border-radius: 100%;
+    padding-right: 20px;
+}
+/* About css*/
+.about{
+    text-align: center;
+    width: 70%;
+    margin: 25px auto;
+    padding-top: 30px;
+}
+.about h1{
+    font-size: 2rem;
+    font-weight: 900;
+    color: #59423c;
+    padding-bottom: 20px;
+}
+.abt{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+p{
+    font-size: 20px;
+}
+
+/*services*/
+.service{
+    text-align: center;
+    width: 70%;
+    margin: 25px auto;
+    padding-top: 30px;
+}
+.service h1{
+    font-size: 2rem;
+    font-weight: 900;
+    color: #59423c;
+    padding-bottom: 20px;
+}
+.service h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #59423c;
+    padding-top: 10px;
+}
+.btn2{
+    background-color: #59423c;
+    padding: 10px 7px; 
+    border-radius: 5px;
+    color: white;
+    font-weight: 900;
+    margin: 30px;
+}
+.btn2:hover{
+    cursor: pointer;
+    background-color: #FFF;
+    color: rgb(97, 10, 25);
+    border: 1px solid rgb(97, 10, 25);
+    
+}
+.service p{
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 13px;
+}
+.svc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card {
+    height: 30vh;
+    width: 30%;
+    margin-right:50px ;
+    border: 1px solid rgb(97, 10, 25);
+}
+.card2 {
+    height: 30vh;
+    width: 30%;
+    margin-right:50px ;
+    border: 1px solid rgb(97, 10, 25);
+    margin-top: 120px;
+}
+.card3 {
+    height: 30vh;
+    width: 30%;
+    margin-right:50px ;
+    border: 1px solid rgb(97, 10, 25);
+    margin-top: 200px;
+}
+
+/*Media Queries*/
+@media screen and (max-width: 720px){
+    .navbar{
+        background-color: blue;
+    }
+}
